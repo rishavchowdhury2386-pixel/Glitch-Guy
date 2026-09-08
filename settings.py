@@ -1,0 +1,46 @@
+# settings.py
+import pygame
+
+# Screen Settings
+WIDTH = 1024
+HEIGHT = 768
+FPS = 60
+
+# Colors
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+CYAN = (0, 255, 255)
+MAGENTA = (255, 0, 255)
+GRAY = (128, 128, 128)
+DARK_GRAY = (50, 50, 50)
+LIGHT_BLUE = (173, 216, 230)
+PURPLE = (128, 0, 128)
+
+# Game States
+MAIN_MENU = "MAIN_MENU"
+EXPLORATION = "EXPLORATION"
+COMBAT = "COMBAT"
+MISSION = "MISSION"
+PRACTICE_LAB = "PRACTICE_LAB"
+QUIZ = "QUIZ"
+PROFESSOR_MODE = "PROFESSOR_MODE"
+PAUSED = "PAUSED"
+GAME_OVER = "GAME_OVER"
+VICTORY = "VICTORY"
+
+# Player Settings
+PLAYER_SPEED = 5
+PLAYER_RUN_SPEED = 8
+PLAYER_DASH_SPEED = 15
+
+# Map settings
+TILE_SIZE = 64
+MAP_WIDTH = 2000
+MAP_HEIGHT = 2000
+
+# Fonts (using default pygame font)
+FONT_NAME = 'arial'
